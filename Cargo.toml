@@ -5,3 +5,6 @@ edition = "2021"
 
 [dependencies]
 bootloader = "0.9"
+
+[lints.cargo]
+unused_dependencies = "allow"
